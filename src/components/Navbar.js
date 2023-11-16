@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 const Navbar = () => {
   return (
     <nav className="navbar flex justify-between items-center p-4">
-      <div className="logo">
+      <div className="logo bg-pruebafinal font-ubuntu">
         NICOLAS MANJARRES
       </div>
 
@@ -17,8 +17,11 @@ const Navbar = () => {
 
       <div className="social-icons">
         <a href="/" className="github">
-          <FontAwesomeIcon icon={faGithub} className="h-5 w-5"/>
-          <FontAwesomeIcon icon={faLinkedin}/>
+          <FontAwesomeIcon icon={faGithub} className="h-5 w-5 m-1 "/>
+          <FontAwesomeIcon icon={faLinkedin} className="h-5 w-5 m-1 "/>
+          <FontAwesomeIcon icon={faFacebook} className="h-5 w-5 m-1 "/>
+          <FontAwesomeIcon icon={faXTwitter} className="h-5 w-5 m-1 "/>
+
         </a>
       </div>
     </nav>
