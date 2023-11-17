@@ -7,10 +7,13 @@ module.exports = {
     extend: {
       colors: {
         'blackgray': '#E91313',
-        'pruebafinal': '#D71B95'
+        'maincolor': '#301D29'
       },
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"]
+      },
+      borderRadius:{
+        'navButton': '8px'
       }
     }
     
