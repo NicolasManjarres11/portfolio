@@ -9,7 +9,7 @@ const Navbar = () => {
         NICOLAS MANJARRES
       </div>
 
-      <div className="navbar-section m-1rem">
+      <div className="secciones navbar-section m-1rem">
         <a href="/" className="m-1 p-4 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300">Home</a>
         <a href="/" className="m-1 p-4 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300">About</a>
         <a href="/" className="m-1 p-4 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300">Proyectos</a>
