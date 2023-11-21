@@ -10,7 +10,8 @@ module.exports = {
         'maincolor': '#301D29'
       },
       fontFamily: {
-        ubuntu: ["Ubuntu", "sans-serif"]
+        ubuntu: ["Ubuntu", "sans-serif"],
+        barlow: ["Barlow Condensed", "sans-serif"]
       },
       borderRadius:{
         'navButton': '8px'

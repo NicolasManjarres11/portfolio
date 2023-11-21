@@ -1,20 +1,58 @@
 import React from 'react'
+import imageLogo from '../assets/img/logo2.png'
 
 const Home = () => {
   return (
-    <div className='home flex'>
-      <div className='description grid items-center justify-center p-40'>
-        <h1 className=''>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </h1>
-        <button className=''>
-          Ver más
-        </button>
+
+    /*<section id='home' className='flex items-center lg:h-[85vh] py-32 lg:py0 '>
+      <div className='container mx-auto h-full'>
+        <div className='flex items-center h-full pt-8'>
+          <div className='flex-1 flex flex-col items-center lg:items-start font-ubuntu font-semibold'>
+            <p className='text-lg mb-[22px]'>
+              Hey, I'm Nicolas :D
+            </p>
+            <h1 className=''>
+              I Build & Design <br /> Web Interfaces
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
+            <img src={imageLogo} alt='logo'/>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rtve.es%2Ftelevision%2F20221016%2Fbatman-actores-cine-saber-ganar%2F2333755.shtml&psig=AOvVaw1O7sE3DFJ9zTtPn8MDWYHl&ust=1700616189914000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCQgZH304IDFQAAAAAdAAAAABAE" alt='batman'/>
+    </section>*/
+
+    <div className="flex flex-wrap items-center justify-between p-8 mt-8 mx-10 ">
+      {/* Columna de la izquierda - Descripción */}
+      <div className="w-full lg:w-1/2 lg:pr-8 mb-4">
+        <p className='flex items-center justify-start mt-6 mb-4 font-bold'>Hola, soy Nicolas Manjarres 👋</p>
+        <h1 className='text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px] justify-start'>
+          Analyst and web <br /> developer
+        </h1>
+        <p className="text-lg font-semibold font-barlow mt-6 mb-10 justify-center">
+          Apasionado desarrollador web con experiencia en [tecnologías]. Estoy comprometido con la creación de soluciones innovadoras y centradas en el usuario.
+        </p>
+        <div className='flex'>
+          <button className="bg-teal-lighter text-teal-darker  py-2 px-4 rounded-full bg-maincolor text-white border border-black border-width-5 hover:bg-white hover:text-black transition duration-300 font-ubuntu">
+            Ver más
+          </button>
+        </div>
+
+      </div>
+
+      {/* Columna de la derecha - Imagen y botón "Ver más" */}
+      <div className="hidden lg:flex flex-1 justify-end items-end h-full mx-auto">
+        <img
+          src={imageLogo}
+          alt="Tu Imagen"
+          className="rounded-full w-48 h-48 mx-auto mb-4 lg:mb-0"
+        />
+
       </div>
     </div>
+
+
   )
 }
 
