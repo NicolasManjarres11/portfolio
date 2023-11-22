@@ -57,7 +57,7 @@ const About = () => {
           </p>
           <div className='flex items-center justify-center'>
             <button className='flex  bg-[#6249c7] rounded-full border-black py-2 px-4 text-white font-ubuntu hover:bg-white hover:text-black transition duration-500'>
-              Contact Meeee
+              Contact Mee
             </button>
           </div>
 
