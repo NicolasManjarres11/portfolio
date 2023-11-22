@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'blackgray': '#E91313',
-        'maincolor': '#301D29'
+        'maincolor': '#301D29',
+        
       },
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],

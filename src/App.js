@@ -6,10 +6,12 @@ import Proyectos from './components/Proyectos';
 import Servicios from './components/Servicios';
 
 function App() {
+
+
   return (
     <div className=''>
-      <Navbar/>
-      <Home/>
+      <Navbar />
+      <Home />
       <About/>
       <Proyectos/>
       <Servicios/>
