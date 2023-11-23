@@ -1,5 +1,5 @@
 import React from 'react'
-import imageLogo from '../assets/img/logo2.png'
+import imageLogo from '../assets/img/logo2.webp'
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
         <h1 className='text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px] justify-center items-center text-center lg:justify-start lg:text-left'>
           Analyst and web <br /> developer
         </h1>
-        <p className="text-lg font-semibold font-barlow mt-6 mb-10 justify-center text-center lg:text-left">
+        <p className="text-lg font-semibold font-barlow mt-6 mb-10 justify-center lg:text-left">
           Apasionado desarrollador web con experiencia en [tecnologías]. Estoy comprometido con la creación de soluciones innovadoras y centradas en el usuario.
         </p>
         <div className='flex items-center justify-center text-center lg:justify-start'>

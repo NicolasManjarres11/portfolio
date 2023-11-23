@@ -1,5 +1,5 @@
 import React from 'react'
-import imageDev from '../assets/img/developer.png'
+import imageDev from '../assets/img/developer.webp'
 
 
 const About = () => {
@@ -32,7 +32,9 @@ const About = () => {
     <div id="about" className="bg-[#1F161B] py-16 px-16 flex  items-center justify-between ">
       <div className="flex justify-center items-center">
 
+
         <div className="lg:block hidden m-10 flex-1 h-full mx-auto">
+          <h1 className='text-white' >About</h1>
           <img
             src={imageDev}
             alt="Nicolas Manjarres"
@@ -42,7 +44,7 @@ const About = () => {
 
 
         <div className="w-full md:w-1/2 md:pl-8 items-center lg:justify-end">
-          <h2 className="text-4xl font-bold mb-4 flex items-center justify-center text-center text-white font-ubuntu lg:text-left lg:px-10">Nicolas Manjarres</h2>
+          <h2 className="text-4xl font-bold mb-4 flex items-center justify-center text-center text-white font-ubuntu lg:justify-start lg:px-10">Nicolas Manjarres</h2>
           <h3 className="text-xl font-semibold mb-2 text-[#6249c7] font-barlow items-center justify-center text-center lg:text-left px-10">Web Developer</h3>
           <div className="lg:hidden m-10 flex-1 justify-end items-end h-full mx-auto">
             <img
@@ -56,7 +58,7 @@ const About = () => {
             Soy un apasionado desarrollador web especializado en JavaScript con Node.js y tecnologías relacionadas. Mi enfoque se centra en crear soluciones innovadoras y eficientes para proporcionar experiencias web excepcionales.
           </p>
           <div className='flex items-center justify-center'>
-            <button className='flex  bg-[#6249c7] rounded-full border-black py-2 px-4 text-white font-ubuntu hover:bg-white hover:text-black transition duration-500'>
+            <button className='flex  bg-[#6249c7] rounded-full border-black py-2 px-4 text-white font-ubuntu hover:bg-white hover:text-black lg:mr-[60px] transition duration-500'>
               Contact Me
             </button>
           </div>
