@@ -30,7 +30,7 @@ const About = () => {
     </div>*/
 
     <div id="about" className="bg-[#1F161B] py-16 px-16 flex  items-center justify-between ">
-      <div className="flex justify-center items-center mx-[100px]">
+      <div className="flex justify-center items-center lg:mx-[100px]">
 
 
         <div className="lg:block hidden m-10 flex-1 h-full mx-auto">

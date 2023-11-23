@@ -6,6 +6,12 @@ import { useEffect } from "react";
 
 const Navbar = () => {
 
+  const menuHidden = () => {
+    const menu = document.querySelector('#menu')
+
+    menu.classList.toggle('hidden')
+  }
+
   useEffect(() => {
     const closeMenu = (e) => {
       const menu = document.querySelector('#menu');
@@ -35,7 +41,7 @@ const Navbar = () => {
         <span className="font-semibold text-xl tracking-widest">Manjarres</span>
       </div>
       <div className="block lg:hidden">
-        <button className="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light" id="boton" onClick={() => {
+        <button className="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light mr-1" id="boton" onClick={() => {
           const menu = document.querySelector('#menu')
 
           menu.classList.toggle('hidden')
@@ -47,10 +53,14 @@ const Navbar = () => {
       </div>
       <div className="navbar-section w-full  flex-grow lg:flex  lg:items-center lg:w-auto text-center hidden transition duration-300 ease-in-out" id="menu">
         <div className="lg:flex-grow">
-          <a href="/" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter ">
+          <a href="#home" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter" 
+          onClick={menuHidden}
+          spy="true">
             Home
           </a>
-          <a href="/" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
+          <a href="#about" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
+          onClick={menuHidden}
+          spy="true">
             About
           </a>
           <a href="/" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
