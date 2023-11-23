@@ -11,7 +11,8 @@ module.exports = {
       },
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
-        barlow: ["Barlow Condensed", "sans-serif"]
+        barlow: ["Barlow Condensed", "sans-serif"],
+        abril: ["Fjalla One", "sans-serif"]
       },
       borderRadius:{
         'navButton': '8px'

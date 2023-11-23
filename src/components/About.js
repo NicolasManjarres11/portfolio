@@ -30,11 +30,13 @@ const About = () => {
     </div>*/
 
     <div id="about" className="bg-[#1F161B] py-16 px-16 flex  items-center justify-between ">
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mx-[100px]">
 
 
         <div className="lg:block hidden m-10 flex-1 h-full mx-auto">
-          <h1 className='text-white' >About</h1>
+          <h1 className='flex text-white font-abril font-bold text-5xl ml-10 mb-10' >
+            About<span className='text-[#6249c7] text-5xl px-1'>.</span>
+          </h1>
           <img
             src={imageDev}
             alt="Nicolas Manjarres"
