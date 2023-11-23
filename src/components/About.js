@@ -46,7 +46,7 @@ const About = () => {
 
 
         <div className="w-full md:w-1/2 md:pl-8 items-center lg:justify-end">
-          <h2 className="text-4xl font-bold mb-4 flex items-center justify-center text-center text-white font-ubuntu lg:justify-start lg:px-10">Nicolas Manjarres</h2>
+          <h2 className="text-4xl font-bold mb-4 flex items-center justify-center text-center text-white font-ubuntu lg:text-left lg:px-10">Nicolas Manjarres</h2>
           <h3 className="text-xl font-semibold mb-2 text-[#6249c7] font-barlow items-center justify-center text-center lg:text-left px-10">Web Developer</h3>
           <div className="lg:hidden m-10 flex-1 justify-end items-end h-full mx-auto">
             <img
