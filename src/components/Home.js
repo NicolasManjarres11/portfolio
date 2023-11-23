@@ -5,7 +5,7 @@ const Home = () => {
   return (
 
 
-    <div className="flex flex-wrap items-center justify-between p-8 lg:p-[100px] mt-[70px] mx-auto lg:mx-[100px]"  id='home'>
+    <div className="flex flex-wrap items-center justify-between p-8 lg:p-[100px] mt-[40px] mx-auto lg:mx-[100px]"  id='home'>
       {/* Columna de la izquierda - Descripción */}
       <div className="w-full lg:w-1/2 lg:pr-8 mb-4">
         <p className='flex items-center justify-center lg:justify-start mt-4 mb-4 font-bold'>Hola, soy Nicolas Manjarres 👋</p>
