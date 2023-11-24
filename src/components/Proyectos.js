@@ -12,7 +12,7 @@ const Proyectos = () => {
               <div>
                 {projects.map((project, index) => {
                   return (
-                    <div className='grid gap-4 md:grid-cols-2 group mb-10' key={index}>
+                    <div className='grid gap-4 grid-cols-2 group mb-10' key={index}>
                       <div className=''>
                           <img src={project.image} alt='' className='h-[200px] w-auto justify-center px-4 mr-4 left-8'/>
                       </div>
