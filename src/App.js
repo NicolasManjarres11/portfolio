@@ -18,7 +18,7 @@ function App() {
       <Proyectos/>
       <Servicios/>
       <Contacto/>
-      <div style={{height: '100px'}}></div>
+      <div style={{height: '1000px'}}></div>
     </div> 
   );
 }
