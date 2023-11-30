@@ -25,22 +25,29 @@ const Proyectos = () => {
               </a>
               <div className='flex flex-col gap-4 items-left px-6  mx-auto'>
                 <h2 className='text-[#6249c7] font-bold font-barlow text-3xl text-center lg:text-left'>
-                {project.tittle}
+                  {project.tittle}
                 </h2>
                 <p className='text-white font-barlow'>
                   {project.description}
                 </p>
+                <div className='flex gap-2 items-center mb-1'>
+                  {project.skill.map((skill, skillIndex) => (
+                    <div key={skillIndex}>
+                      <img src={skill} alt='' />
+                    </div>
+                  ))}
+                </div>
                 <div className='flex justify-start gap-3'>
                   <a href={project.code} target='_blank' rel='noreferrer' className='px-4 py-2 bg-[#6249c7] text-white rounded-lg hover:text-black hover:bg-white transition duration-300 cursor-pointer'>
                     Code
                     <span className='ml-1'>
-                      <FontAwesomeIcon icon={faCode}/>
+                      <FontAwesomeIcon icon={faCode} />
                     </span>
                   </a>
                   <a href={project.live} target='_blank' rel='noreferrer' className='px-4 py-2 bg-[#6249c7] text-white rounded-lg hover:text-black hover:bg-white transition duration-300 cursor-pointer'>
                     Link
                     <span className='ml-1'>
-                      <FontAwesomeIcon icon={faLink}/>
+                      <FontAwesomeIcon icon={faLink} />
                     </span>
                   </a>
                 </div>
