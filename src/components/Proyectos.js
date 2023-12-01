@@ -8,6 +8,9 @@ const Proyectos = () => {
   return (
     <div id='proyectos' className='flex flex-col gap-10 bg-[#302129] px-[40px] '>
       <div className='flex flex-col gap-10 mx-auto lg:mx-[150px] my-[100px]'>
+        <h1 className='text-white font-bold font-abril text-6xl items-center justify-center text-center mb-12'>
+          Proyectos
+        </h1>
         {projects.map((project, index) => {
           return (
             <div className='grid gap-9  lg:grid-cols-2' key={index}>

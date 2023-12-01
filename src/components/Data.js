@@ -21,8 +21,15 @@ import Project1 from '../assets/img/projects/pokedex.png'
 // import skills on 
 
 import html from '../assets/svg/html.svg'
+import css from '../assets/svg/csss.svg'
 import javascript from '../assets/svg/javascript-js.svg';
 import reactSvg from '../assets/svg/react.svg';
+import node from '../assets/svg/node.svg';
+import git from '../assets/svg/git.svg';
+import java from '../assets/svg/java.svg';
+import python from '../assets/svg/python.svg';
+import mongo from '../assets/svg/mongo.svg';
+import mysql from '../assets/svg/mysql.svg';
 
 export const skills = [
     {
@@ -75,7 +82,7 @@ export const projects = [
         image: Project0,
         tittle: 'Javascript práctico',
         description: 'Proyecto realizado a base de HTML, CSS y Javascript, utilizando métodos de manipulación de DOm e importación de imágenes',
-        skill: [javascript, reactSvg, html],
+        skill: [html, css, javascript],
         code: 'https://github.com/NicolasManjarres11/curso-frontend-developer-javascript-practico',
         live:'https://nicolasmanjarres11.github.io/curso-frontend-developer-javascript-practico/'
     },
@@ -83,7 +90,7 @@ export const projects = [
         image: Project1,
         tittle: 'Pokedex',
         description: 'Página de pókedex la cual se realizó con HTML, CSS y Javascript, esto con el fin de aprender a consumir una API por medio de fecth y permitir que la página pueda filtrar por categorías; en este caso, por tipo de elemento del pokemon',
-        skill: [javascript, html],
+        skill: [html, css, javascript],
         code: 'https://github.com/NicolasManjarres11/pokedex',
         live:'https://nicolasmanjarres11.github.io/pokedex/'
 
