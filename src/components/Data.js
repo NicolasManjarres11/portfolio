@@ -97,6 +97,41 @@ export const projects = [
     },
 ]
 
+export const exp = [
+    {
+        cargo: "Técnico de soporte nvl 2",
+        empresa: "Reserco ISIT",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        inicio: "21/10/2021",
+        fin: "Laborando actualmente"
+        
+    },
+    {
+        cargo: "Asesor soporte cliente",
+        empresa: "Carvajal S.A.",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        inicio: "21/07/2021",
+        fin: "20/10/2021"
+        
+    },
+    {
+        cargo: "Soporte técnico",
+        empresa: "Universidad central",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        inicio: "28/10/2020",
+        fin: "24/05/2021"
+        
+    },
+    {
+        cargo: "Soporte técnico",
+        empresa: "Gimnasio Colombo Británico",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        inicio: "31/08/2017",
+        fin: "09/02/2018"
+        
+    },
+]
+
 export const estudios =[
 
     {
