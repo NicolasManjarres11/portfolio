@@ -2,7 +2,7 @@ import React from 'react'
 import { projects } from './Data'
 import bgImg from '../assets/img/bg.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faLink } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faCode, faLink } from '@fortawesome/free-solid-svg-icons'
 
 const Proyectos = () => {
   return (
