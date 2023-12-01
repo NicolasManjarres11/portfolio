@@ -96,3 +96,27 @@ export const projects = [
 
     },
 ]
+
+export const estudios =[
+
+    {
+        titulo: 'Técnico en sistemas',
+        instituto: 'Servicio Nacional de Aprendizaje SENA',
+        fecha: '2017 - 2018'
+    },
+    {
+        titulo: 'Tecnólogo en sistemas',
+        instituto: 'Servicio Nacional de Aprendizaje SENA',
+        fecha: '2019 - 2021'
+    },
+    {
+        titulo: 'Programación y desarrollo de aplicativos web',
+        instituto: 'Universidad tecnológica de Pereira',
+        fecha: '2021 - 2022'
+    },
+    {
+        titulo: 'ITIL Foundation Certificate in IT Service Management V4',
+        instituto: 'PeopleCert',
+        fecha: '2022'
+    },
+]
