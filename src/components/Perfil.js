@@ -101,7 +101,7 @@ const Perfil = () => {
 
                 <div className='grid'>
                     <h2 className='text-white font-bold font-barlow text-3xl justify-start mb-10'>
-                        Estudios
+                        Educación
                     </h2>
                     <div className='grid gap-9 md:grid-cols-2'>
                         {estudios.map((estudio, index) => {

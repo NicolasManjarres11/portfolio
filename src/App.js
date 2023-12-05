@@ -18,10 +18,8 @@ function App() {
       <Perfil/>
       <Skills/>
       <Proyectos/>
-      
       <Servicios/>
       <Contacto/>
-      <div style={{height: '1000px'}}></div>
     </div> 
   );
 }
