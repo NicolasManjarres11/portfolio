@@ -63,13 +63,13 @@ const Navbar = () => {
           spy="true">
             About
           </a>
-          <a href="#proyectos" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
+          <a href="#perfil" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
           onClick={menuHidden}
           spy="true">
-            Proyectos
+            Perfil
           </a>
-          <a href="/" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
-            Servicios
+          <a href="#proyectos" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
+            Proyectos
           </a>
           <a href="/" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
             Contáctame
