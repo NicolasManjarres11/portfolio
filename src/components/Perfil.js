@@ -15,20 +15,20 @@ const Perfil = () => {
                 <div className='flex flex-col md:flex-row space-x-0 md:space-x-4 gap-12'>
 
                     <div className='md:w-1/2'>
-                    <h2 className='text-white font-bold font-barlow text-xl justify-start mb-10'>
+                    <h2 className='text-white font-bold font-barlow text-3xl justify-start mb-10'>
                         Experiencia
                     </h2>
                     {exp.map((ex, index) => {
                             return (
                                 <div id='experiencia' className='flex flex-col gap-2 mb-10' key={index}>
-                                    <h2 className='text-white'>
+                                    <h2 className='text-white font-bold text-xl font-ubuntu'>
                                         {ex.cargo}
-                                        <FontAwesomeIcon icon={faCircle} className='mx-4' />
+                                        <FontAwesomeIcon icon={faCircle} className='mx-4 text-[#a994fd]' />
                                         <span className='text-white'>
                                             {ex.fecha}
                                         </span>
                                     </h2>
-                                    <h3 className='text-white'>
+                                    <h3 className='text-[#a994fd] font-abril'>
                                         {ex.empresa}
                                     </h3>
                                     <p className='text-white'>
@@ -41,7 +41,7 @@ const Perfil = () => {
                     </div>
 
                     <div className='md:w-1/2'>
-                        <h2 className='text-white font-bold font-barlow text-xl justify-start mb-10'>
+                        <h2 className='text-white font-bold font-barlow text-3xl justify-start mb-10'>
                             Estudios
                         </h2>
                         {estudios.map((estudio, index) => {
