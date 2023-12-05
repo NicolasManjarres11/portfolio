@@ -7,6 +7,11 @@ const Contacto = () => {
         <h1 className='flex text-white font-abril font-bold text-5xl ml-10 mb-10 text-center justify-center'>
           Contáctame
         </h1>
+        <div className='flex'>
+          <div className=''>
+
+          </div>
+        </div>
       </div>
     </div>
   )
