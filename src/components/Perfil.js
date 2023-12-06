@@ -106,7 +106,7 @@ const Perfil = () => {
                     <div className='grid gap-9 md:grid-cols-2'>
                         {estudios.map((estudio, index) => {
                             return (
-                                <div id='estudios' className='flex flex-col gap-2'>
+                                <div id='estudios' className='flex flex-col gap-2' key={index}>
                                     <h3 className='text-white font-bold text-xl font-ubuntu'>
                                         {estudio.titulo}
                                     </h3>
