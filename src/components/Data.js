@@ -30,6 +30,14 @@ import java from '../assets/svg/java.svg';
 import python from '../assets/svg/python.svg';
 import mongo from '../assets/svg/mongo.svg';
 import mysql from '../assets/svg/mysql.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
+export const iconSocial = [
+    {
+        icon: <FontAwesomeIcon icon={faGithub}/>
+    },
+]
 
 export const skills = [
     {

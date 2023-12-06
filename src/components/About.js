@@ -60,9 +60,9 @@ const About = () => {
             Soy un apasionado desarrollador web especializado en JavaScript con Node.js y tecnologías relacionadas. Mi enfoque se centra en crear soluciones innovadoras y eficientes para proporcionar experiencias web excepcionales.
           </p>
           <div className='flex items-center justify-center'>
-            <button className='flex  bg-[#6249c7] rounded-full border-black py-2 px-4 text-white font-ubuntu hover:bg-white hover:text-black lg:mr-[60px] transition duration-500'>
-              Contact Me
-            </button>
+            <a className='flex  bg-[#6249c7] rounded-full border-black py-2 px-4 text-white font-ubuntu hover:bg-white hover:text-black lg:mr-[60px] transition duration-500' href='#contacto'>
+              Contáctame
+            </a>
           </div>
 
         </div>

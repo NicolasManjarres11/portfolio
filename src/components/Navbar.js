@@ -71,7 +71,7 @@ const Navbar = () => {
           <a href="#proyectos" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
             Proyectos
           </a>
-          <a href="/" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
+          <a href="#contacto" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
             Contáctame
           </a>
         </div>

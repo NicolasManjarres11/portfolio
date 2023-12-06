@@ -24,9 +24,9 @@ const Home = () => {
           Apasionado desarrollador web con experiencia en [tecnologías]. Estoy comprometido con la creación de soluciones innovadoras y centradas en el usuario.
         </p>
         <div className='flex items-center justify-center text-center lg:justify-start'>
-          <button className="bg-teal-lighter text-teal-darker  py-2 px-4 rounded-full bg-maincolor text-white border border-black border-width-5 hover:bg-white hover:text-black transition duration-300 font-ubuntu ">
+          <a className="bg-teal-lighter text-teal-darker  py-2 px-4 rounded-full bg-maincolor text-white border border-black border-width-5 hover:bg-white hover:text-black transition duration-300 font-ubuntu cursor-pointer" href='#perfil'>
             Ver más
-          </button>
+          </a>
         </div>
 
       </div>
