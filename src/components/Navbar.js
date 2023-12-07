@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faBars, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 
 
@@ -68,10 +68,14 @@ const Navbar = () => {
           spy="true">
             Perfil
           </a>
-          <a href="#proyectos" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
+          <a href="#proyectos" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
+          onClick={menuHidden}
+          spy="true">
             Proyectos
           </a>
-          <a href="#contacto" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter">
+          <a href="#contacto" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
+          onClick={menuHidden}
+          spy="true">
             Contáctame
           </a>
         </div>
@@ -98,8 +102,8 @@ const Navbar = () => {
             >
             <FontAwesomeIcon icon={faWhatsapp} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
-          <a href="/" className="x">
-            <FontAwesomeIcon icon={faXTwitter} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
+          <a href="/" className="cv">
+            <FontAwesomeIcon icon={faFilePdf} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
         </div>
       </div>

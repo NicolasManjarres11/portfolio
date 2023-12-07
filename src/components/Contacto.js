@@ -1,5 +1,5 @@
-import { faGithub, faLinkedin, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faAt, faCopy, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faAt, faCopy, faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useRef, useState } from 'react'
 
@@ -76,7 +76,7 @@ const Contacto = () => {
             <FontAwesomeIcon icon={faWhatsapp} className="h-7 w-7  rounded-lg transition duration-300 hover:bg-indigo-500 hover:text-white p-1 bg-black text-white " />
           </a>
           <a href="/" className="x">
-            <FontAwesomeIcon icon={faXTwitter} className="h-7 w-7  rounded-lg transition duration-300 hover:bg-indigo-500 hover:text-white p-1 bg-black text-white " />
+            <FontAwesomeIcon icon={faFilePdf} className="h-7 w-7  rounded-lg transition duration-300 hover:bg-indigo-500 hover:text-white p-1 bg-black text-white " />
           </a>
         </div>
         </div>
