@@ -80,7 +80,7 @@ const Perfil = () => {
                                 <div id='experiencia' className='flex flex-col gap-4' key={index}>
                                     <h3 className='text-white font-bold text-xl font-ubuntu'>
                                         {ex.cargo}
-                                        <FontAwesomeIcon icon={faCircle} className='mx-4 text-[#a994fd]' />
+                                        <FontAwesomeIcon icon={faCircle} className='mx-4 md:text-xl text-[#a994fd]' />
                                         <span className='text-white'>
                                             {ex.fecha}
                                         </span>
