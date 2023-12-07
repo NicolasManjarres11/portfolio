@@ -1,10 +1,22 @@
 import { faFacebook, faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faAt, faCopy, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+import React, { useRef, useState } from 'react'
 
 const Contacto = () => {
 
+    const emailRef = useRef(null);
+    const [copy, setCopy] = useState('Copiar Email');
+
+
+    const copyEmail = () => {
+      if (emailRef.current) {
+        const emailToCopy = emailRef.current.value;
+        navigator.clipboard.writeText(emailToCopy)
+          .then(() => setCopy('Copiado'))
+          .catch(() => setCopy('Error al copiar el email'));
+      }
+    }
 
 
   return (
@@ -22,14 +34,14 @@ const Contacto = () => {
             </span>
           </h1>
           <div className='flex gap-2 mb-4'>
-            <input type='text' disabled className='bg-[#a7a5a5] w-auto py-1.5 px-3 rounded-lg grid place-items-center text-slate-700' value="nicolasmanjarresg@gmail.com"/>
+            <input type='text' disabled className='bg-[#a7a5a5] w-auto py-1.5 px-3 rounded-lg grid place-items-center text-slate-700' value="nicolasmanjarresg@gmail.com" ref={emailRef}/>
             <div className='flex '>
               <div className='relative group/tooltip'>
-                <button className='flex bg-indigo-500 hover:bg-opacity-90 text-indigo-100 py-2.5 px-4 rounded-lg'>
+                <button className='flex bg-indigo-500 hover:bg-opacity-90 text-indigo-100 py-2.5 px-4 rounded-lg' onClick={copyEmail}>
                   <FontAwesomeIcon icon={faCopy} className='text-lg'/>
                 </button>
                 <span className="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap  bg-white text-gray-700 before:content-[''] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">
-                  Copiar email
+                  {copy}
                 </span>
               </div>
             </div>
