@@ -53,33 +53,33 @@ const Navbar = () => {
       </div>
       <div className="navbar-section w-full  flex-grow lg:flex  lg:items-center lg:w-auto text-center hidden transition duration-300 ease-in-out" id="menu">
         <div className="lg:flex-grow">
-          <a href="#home" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter" 
-          onClick={menuHidden}
-          spy="true">
+          <a href="#home" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
+            onClick={menuHidden}
+            spy="true">
             Home
           </a>
           <a href="#about" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
-          onClick={menuHidden}
-          spy="true">
+            onClick={menuHidden}
+            spy="true">
             About
           </a>
           <a href="#perfil" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
-          onClick={menuHidden}
-          spy="true">
+            onClick={menuHidden}
+            spy="true">
             Perfil
           </a>
           <a href="#proyectos" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
-          onClick={menuHidden}
-          spy="true">
+            onClick={menuHidden}
+            spy="true">
             Proyectos
           </a>
           <a href="#contacto" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
-          onClick={menuHidden}
-          spy="true">
+            onClick={menuHidden}
+            spy="true">
             Contáctame
           </a>
         </div>
-        <div className="social-icons" id="socialmedia">
+        <div className="social-icons flex" id="socialmedia">
           <a
             href="https://github.com/NicolasManjarres11"
             className="github"
@@ -95,16 +95,26 @@ const Navbar = () => {
           >
             <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
-          <a href="https://wa.me/+573192842215" 
+          <a href="https://wa.me/+573192842215"
             className="whatsapp"
             target="_blank"
             rel="noopener noreferrer"
-            >
+          >
             <FontAwesomeIcon icon={faWhatsapp} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
-          <a href="./CV Nicolas Manjarres.pdf" download className="cv">
-            <FontAwesomeIcon icon={faFilePdf} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
-          </a>
+          <div className="">
+            <div className="relative group/tooltip ">
+              <a href="./CV Nicolas Manjarres.pdf" download className="cv">
+                <FontAwesomeIcon icon={faFilePdf} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
+              </a>
+              <span className="grid absolute pointer-events-none  transition-all opacity-0 z-20 top-full translate-y-2 py-1 px-1.5 text-xs left-15 -translate-x-1/2 rounded-md whitespace-nowrap bg-white text-gray-700 before:content-[''] before:absolute before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:top-0 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:translate-y-0">
+                  Descargar<span>
+                    CV
+                  </span>
+                </span>
+            </div>
+          </div>
+
         </div>
       </div>
     </nav>
