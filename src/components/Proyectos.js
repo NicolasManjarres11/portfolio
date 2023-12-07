@@ -27,7 +27,7 @@ const Proyectos = () => {
                 </div>
               </a>
               <div className='flex flex-col gap-4 items-left px-6  mx-auto'>
-                <h2 className='text-[#6249c7] font-bold font-barlow text-3xl text-center lg:text-left'>
+                <h2 className='text-indigo-500 font-bold font-barlow text-3xl text-center lg:text-left'>
                   {project.tittle}
                 </h2>
                 <p className='text-white font-barlow'>
@@ -41,13 +41,13 @@ const Proyectos = () => {
                   ))}
                 </div>
                 <div className='flex justify-start gap-3'>
-                  <a href={project.code} target='_blank' rel='noreferrer' className='px-4 py-2 bg-[#6249c7] text-white rounded-lg hover:text-black hover:bg-white transition duration-300 cursor-pointer'>
+                  <a href={project.code} target='_blank' rel='noreferrer' className='font-ubuntu px-4 py-2 bg-[#6249c7] text-white rounded-lg hover:text-black hover:bg-white transition duration-300 cursor-pointer'>
                     Code
                     <span className='ml-1'>
                       <FontAwesomeIcon icon={faCode} />
                     </span>
                   </a>
-                  <a href={project.live} target='_blank' rel='noreferrer' className='px-4 py-2 bg-[#6249c7] text-white rounded-lg hover:text-black hover:bg-white transition duration-300 cursor-pointer'>
+                  <a href={project.live} target='_blank' rel='noreferrer' className='font-ubuntu px-4 py-2 bg-[#6249c7] text-white rounded-lg hover:text-black hover:bg-white transition duration-300 cursor-pointer'>
                     Link
                     <span className='ml-1'>
                       <FontAwesomeIcon icon={faLink} />
