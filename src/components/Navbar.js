@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 
@@ -91,8 +91,12 @@ const Navbar = () => {
           >
             <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
-          <a href="/" className="facebook">
-            <FontAwesomeIcon icon={faFacebook} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
+          <a href="https://wa.me/+573192842215" 
+            className="whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <FontAwesomeIcon icon={faWhatsapp} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
           <a href="/" className="x">
             <FontAwesomeIcon icon={faXTwitter} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
