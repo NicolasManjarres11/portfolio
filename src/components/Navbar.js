@@ -1,13 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 
 const Navbar = () => {
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const menuHidden = () => {
     const menu = document.querySelector('#menu')
+
 
     menu.classList.toggle('hidden')
   }
@@ -41,17 +44,13 @@ const Navbar = () => {
         <span className="font-semibold text-xl tracking-widest">Manjarres</span>
       </div>
       <div className="block lg:hidden">
-        <button className="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light mr-1" id="boton" onClick={() => {
-          const menu = document.querySelector('#menu')
-
-          menu.classList.toggle('hidden')
-
-
-        }}>
+        <button className="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light mr-1" id="boton" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <FontAwesomeIcon icon={faBars} className=" " />
         </button>
       </div>
-      <div className="navbar-section w-full  flex-grow lg:flex  lg:items-center lg:w-auto text-center hidden transition duration-300 ease-in-out" id="menu">
+      <div className={`navbar-section w-full flex-grow lg:flex lg:items-center lg:w-auto text-center overflow-hidden transition-max-height duration-300 ease-in-out ${isMenuOpen ? 'max-h-screen' : 'max-h-0'
+        }`}
+        id="menu">
         <div className="lg:flex-grow">
           <a href="#home" className="block m-1 p-2 rounded-navButton hover:border-white hover:bg-white hover:text-black transition duration-300 lg:inline-block lg:mt-0 text-teal-lighter"
             onClick={menuHidden}
@@ -79,7 +78,7 @@ const Navbar = () => {
             Contáctame
           </a>
         </div>
-        <div className="social-icons flex" id="socialmedia">
+        <div className="social-icons flex justify-center lg:mt-1 mt-10" id="socialmedia">
           <a
             href="https://github.com/NicolasManjarres11"
             className="github"
@@ -108,10 +107,10 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faFilePdf} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
               </a>
               <span className="grid absolute pointer-events-none  transition-all opacity-0 z-20 top-full translate-y-2 py-1 px-1.5 text-xs left-15 -translate-x-1/2 rounded-md whitespace-nowrap bg-white text-gray-700 before:content-[''] before:absolute before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:top-0 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:translate-y-0">
-                  Descargar<span>
-                    CV
-                  </span>
+                Descargar<span>
+                  CV
                 </span>
+              </span>
             </div>
           </div>
 
