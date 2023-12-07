@@ -102,7 +102,7 @@ const Navbar = () => {
             >
             <FontAwesomeIcon icon={faWhatsapp} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
-          <a href="/" className="cv">
+          <a href="./CV Nicolas Manjarres.pdf" download className="cv">
             <FontAwesomeIcon icon={faFilePdf} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
           </a>
         </div>
