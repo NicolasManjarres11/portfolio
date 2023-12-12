@@ -8,6 +8,8 @@ const Navbar = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const mobileView = window.innerWidth <= 768
+
   const menuHidden = () => {
     const menu = document.querySelector('#menu')
 
@@ -48,7 +50,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} className=" " />
         </button>
       </div>
-      <div className={`navbar-section w-full flex-grow lg:flex lg:items-center lg:w-auto text-center overflow-hidden transition-max-height duration-300 ease-in-out ${isMenuOpen ? 'max-h-screen' : 'max-h-0'
+      <div className={`navbar-section w-full flex-grow lg:flex lg:items-center lg:w-auto text-center overflow-hidden transition-max-height duration-300 ease-in-out ${mobileView ? (isMenuOpen ? 'max-h-screen' : 'max-h-0') : ''
         }`}
         id="menu">
         <div className="lg:flex-grow">
