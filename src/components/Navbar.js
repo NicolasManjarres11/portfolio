@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const mobileView = window.innerWidth <= 768
+  const mobileView = window.innerWidth <= 1024
 
   const menuHidden = () => {
     const menu = document.querySelector('#menu')
@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
 
 
-    <nav className="navbar fixed top-0 left-0 right-0 z-10 flex flex-wrap justify-between items-center p-1.5 font-ubuntu bg-maincolor text-white">
+    <nav className="navbar fixed top-0 left-0 right-0 z-10 flex flex-wrap justify-between items-center p-1.5 font-ubuntu bg-maincolor text-white ">
       <div className=" logo flex items-center flex-no-shrink text-white mr-6 mx-10">
 
         <span className="font-semibold text-xl tracking-widest">Manjarres</span>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} className=" " />
         </button>
       </div>
-      <div className={`navbar-section w-full flex-grow lg:flex lg:items-center lg:w-auto text-center overflow-hidden transition-max-height duration-300 ease-in-out ${mobileView ? (isMenuOpen ? 'max-h-screen' : 'max-h-0') : ''
+      <div className={`navbar-section w-full flex-grow lg:flex lg:items-center lg:w-auto text-center transition-max-height duration-300 ease-in-out ${mobileView ? (isMenuOpen ? 'max-h-screen' : 'max-h-0') : ''
         }`}
         id="menu">
         <div className="lg:flex-grow">
@@ -105,13 +105,13 @@ const Navbar = () => {
           </a>
           <div className="">
             <div className="relative group/tooltip ">
-              <a href="./CV Nicolas Manjarres.pdf" download className="cv">
-                <FontAwesomeIcon icon={faFilePdf} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 " />
+              <a href="./CV Nicolas Manjarres.pdf" download className="">
+                <FontAwesomeIcon icon={faFilePdf} className="h-6 w-6  rounded-navButton transition duration-300 hover:bg-white hover:text-black p-1 z-10" />
               </a>
-              <span className="grid absolute pointer-events-none  transition-all opacity-0 z-20 top-full translate-y-2 py-1 px-1.5 text-xs left-15 -translate-x-1/2 rounded-md whitespace-nowrap bg-white text-gray-700 before:content-[''] before:absolute before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:top-0 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:translate-y-0">
-                Descargar<span>
+              <span className="grid absolute pointer-events-none  transition-all opacity-0 z-50 top-full translate-y-2 py-1 px-1.5 text-xs left-15 -translate-x-1/2 rounded-md whitespace-nowrap bg-white text-gray-700 before:content-[''] before:absolute before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:top-0 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:translate-y-0">
+                Descargar <span>
                   CV
-                </span>
+                </span> 
               </span>
             </div>
           </div>
