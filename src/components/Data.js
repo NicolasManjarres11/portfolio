@@ -109,21 +109,21 @@ export const exp = [
     {
         cargo: "Técnico de soporte nvl 2",
         empresa: "Reserco ISIT",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        fecha: "Oct 2021 - laborando actualmente",
+        description:"Soporte técnico para Banco Popular en requerimientos y solicitudes generadas por los usuarios del banco para instalación de programas, software especializado, acompañamientos técnicos, alistamiento de equipos, migración de equipos, copias de seguridad, traslado de equipos, instalación de periféricos, mantenimientos, entre otros.",
+        fecha:"Oct 2021 - Laborando actualmente",
         
     },
     {
         cargo: "Asesor soporte cliente",
         empresa: "Carvajal S.A.",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        description:"Soporte a facturación electrónica revisando las facturas en XML realizadas por las empresas. se revisaba de acuerdo al estándar otorgado por la DIAN. Se utilizaba MySQL para consultas y manejo de Querys, se realizaban informes, se le indicaba al usuario las correccones a realizar, entre otras funciones.",
         fecha:"Jul 2021 - Oct 2021",
         
     },
     {
         cargo: "Soporte técnico",
         empresa: "Universidad central",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        description:"Soporte técnico al área administrativa de la Universidad Central, donde se atendían solicitudes e incidentes tanto de hardware como de software, instalación de equipos nuevos, mantenimientos, instalación de programas y software especializado y demás.",
         inicio: "28/10/2020",
         fin: "24/05/2021",
         fecha: "Oct 2020 - May 2021"
@@ -132,7 +132,7 @@ export const exp = [
     {
         cargo: "Soporte técnico",
         empresa: "Gimnasio Colombo Británico",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        description:"Soporte técnico al área administrativa y académica del Gimnasio Colombo Británico, atendiendo solicitudes de software y hardware, incluyendo instalación de equipos, de programas y software especializado, soporte de impresión, administración de Acces point y mantenimiento de equipos de cómputo",
         inicio: "31/08/2017",
         fin: "09/02/2018",
         fecha: "Aug 2017 - Feb 2018"
