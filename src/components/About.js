@@ -57,7 +57,7 @@ const About = () => {
 
           </div>
           <p className="text-[#F9F9F9] text-xl font-barlow text-left items-center mx-auto lg:px-10 mb-10">
-            Soy un apasionado desarrollador web especializado en JavaScript con Node.js y tecnologías relacionadas. Mi enfoque se centra en crear soluciones innovadoras y eficientes para proporcionar experiencias web excepcionales.
+          Soy un entusiasta desarrollador web Full Stack con experiencia práctica en la creación y desarrollo de proyectos personales con el uso de una amplia gama de tecnologías. Mi enfoque se centra en crear aplicaciones web eficientes que no solo cumplen con los requisitos funcionales, sino que también ofrecen una experiencia de usuario excepcional.
           </p>
           <div className='flex items-center justify-center'>
             <a className='flex  bg-[#6249c7] rounded-full border-black py-2 px-4 text-white font-ubuntu hover:bg-white hover:text-black lg:mr-[60px] transition duration-500' href='#contacto'>
