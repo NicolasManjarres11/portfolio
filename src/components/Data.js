@@ -132,7 +132,7 @@ export const exp = [
     {
         cargo: "Soporte técnico",
         empresa: "Gimnasio Colombo Británico",
-        description:"Soporte técnico al área administrativa y académica del Gimnasio Colombo Británico, atendiendo solicitudes de software y hardware, incluyendo instalación de equipos, de programas y software especializado, soporte de impresión, administración de Acces point y mantenimiento de equipos de cómputo",
+        description:"Soporte técnico al área administrativa y académica del Gimnasio Colombo Británico, atendiendo solicitudes de software y hardware, incluyendo instalación de equipos, de programas y software especializado, soporte de impresión, administración de Acces point y mantenimiento de equipos de cómputo.",
         inicio: "31/08/2017",
         fin: "09/02/2018",
         fecha: "Aug 2017 - Feb 2018"
@@ -153,7 +153,7 @@ export const estudios =[
         fecha: '2019 - 2021'
     },
     {
-        titulo: 'Programación y desarrollo de aplicativos web',
+        titulo: 'Desarrollo de software y aplicativos web',
         instituto: 'Universidad tecnológica de Pereira',
         fecha: '2021 - 2022'
     },
