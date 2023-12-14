@@ -15,8 +15,8 @@ import Skillimg11 from '../assets/img/skills/mysql.webp';
 //Import projects
 
 import Projectimgproof from '../assets/img/logo2.webp'
-import Project0 from '../assets/img/projects/prueba.png'
-import Project1 from '../assets/img/projects/pokedex.png'
+import Project0 from '../assets/img/projects/prueba.webp'
+import Project1 from '../assets/img/projects/pokedex.webp'
 
 // import skills on 
 
