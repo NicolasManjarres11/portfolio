@@ -17,6 +17,7 @@ import Skillimg11 from '../assets/img/skills/mysql.webp';
 import Projectimgproof from '../assets/img/logo2.webp'
 import Project0 from '../assets/img/projects/prueba.webp'
 import Project1 from '../assets/img/projects/pokedex.webp'
+import Project2 from '../assets/img/projects/solarsystem.webp'
 
 // import skills on 
 
@@ -87,14 +88,6 @@ export const projects = [
 
     },  */
     {
-        image: Project0,
-        tittle: 'Javascript práctico',
-        description: 'Proyecto realizado a base de HTML, CSS y Javascript, utilizando métodos de manipulación de DOm e importación de imágenes',
-        skill: [html, css, javascript],
-        code: 'https://github.com/NicolasManjarres11/curso-frontend-developer-javascript-practico',
-        live:'https://nicolasmanjarres11.github.io/curso-frontend-developer-javascript-practico/'
-    },
-    {
         image: Project1,
         tittle: 'Pokedex',
         description: 'Página de pókedex la cual se realizó con HTML, CSS y Javascript, esto con el fin de aprender a consumir una API por medio de fecth y permitir que la página pueda filtrar por categorías; en este caso, por tipo de elemento del pokemon',
@@ -103,6 +96,23 @@ export const projects = [
         live:'https://nicolasmanjarres11.github.io/pokedex/'
 
     },
+    {image: Project2,
+        tittle: 'Sistema solar',
+        description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera muy simple el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
+        skill: [html, css, javascript],
+        code: 'https://github.com/NicolasManjarres11/solar-system.git',
+        live:'https://nicolasmanjarres11.github.io/solar-system/'
+
+    },
+    {
+        image: Project0,
+        tittle: 'Javascript práctico',
+        description: 'Proyecto realizado a base de HTML, CSS y Javascript, utilizando métodos de manipulación de DOm e importación de imágenes',
+        skill: [html, css, javascript],
+        code: 'https://github.com/NicolasManjarres11/curso-frontend-developer-javascript-practico',
+        live:'https://nicolasmanjarres11.github.io/curso-frontend-developer-javascript-practico/'
+    },
+    
 ]
 
 export const exp = [

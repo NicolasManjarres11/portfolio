@@ -25,6 +25,7 @@ const Navbar = () => {
       // Verificar si el clic no está dentro del menú ni en el botón
       if (!menu.contains(e.target) && !button.contains(e.target)) {
         menu.classList.add('hidden');
+        
       }
     };
 
@@ -50,7 +51,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} className=" " />
         </button>
       </div>
-      <div className={`navbar-section w-full flex-grow lg:flex lg:items-center lg:w-auto text-center transition-max-height duration-300 ease-in-out ${mobileView ? (isMenuOpen ? 'max-h-screen' : 'max-h-0') : ''
+      <div className={`navbar-section w-full flex-grow lg:flex lg:items-center lg:w-auto text-center transition-max-height duration-300 ease-in-out ${mobileView ? (isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0') : ''
         }`}
         id="menu">
         <div className="lg:flex-grow">
