@@ -19,7 +19,7 @@ import Project0 from '../assets/img/projects/prueba.webp'
 import Project1 from '../assets/img/projects/pokedex.webp'
 import Project2 from '../assets/img/projects/solarsystem.webp'
 
-// import skills on 
+// import skills onn
 
 import html from '../assets/svg/html.svg'
 import css from '../assets/svg/csss.svg'
