@@ -16,7 +16,7 @@ const Proyectos = () => {
             <div className='grid gap-9  lg:grid-cols-2' key={index}>
               <a href={project.live} target='_blank' rel='noreferrer'>
                 <div className='rounded-xl overflow-hidden flex'>
-                  <span className='box-border inline-block overflow-hidden w-initial h-initial bg-none opacity-100 border-0 m-0 p-0 relative max-w-full mx-auto'>
+                  <span className='box-border inline-block overflow-hidden w-initial h-initial bg-none opacity-100 border-0 m-0 p-0 relative max-w-full mx-auto rounded-xl'>
                     <span className='box-border w-initial h-initial bg-none opacity-100 border-0 m- p-0 max-w-full md:justify-center'>
                       <img className='block max-w-full w-initial h-initial bg-none opacity-100 border-0 m-0 p-0' alt='' aria-hidden="true" src={bgImg} />
                     </span>
