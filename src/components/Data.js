@@ -18,6 +18,7 @@ import Projectimgproof from '../assets/img/logo2.webp'
 import Project0 from '../assets/img/projects/prueba.webp'
 import Project1 from '../assets/img/projects/pokedex.webp'
 import Project2 from '../assets/img/projects/solarsystem.webp'
+import Project3 from '../assets/img/projects/imashare.png'
 
 // import skills onn
 
@@ -87,6 +88,22 @@ export const projects = [
         live:'linkpage'
 
     },  */
+
+    {image: Project3,
+        tittle: 'Imashare',
+        description: 'Red social basada en imágenes donde se utilizó Nodejs, Express y Mongodb para construir su lógica, además de utilizar conceptos de frontend tales como Bootstrap, Handlebars, Jquery y otros más. Podemos ver, comentar, agregar, eliminar y darle like a imágenes. (Link no disponible por ahora)',
+        skill: [node, mongo, javascript, html],
+        code: 'https://github.com/NicolasManjarres11/ImaShare.git',
+    },
+    {
+        image: Project2,
+        tittle: 'Sistema solar',
+        description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera muy simple el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
+        skill: [html, css, javascript],
+        code: 'https://github.com/NicolasManjarres11/solar-system.git',
+        live:'https://nicolasmanjarres11.github.io/solar-system/'
+
+    },
     {
         image: Project1,
         tittle: 'Pokedex',
@@ -94,14 +111,6 @@ export const projects = [
         skill: [html, css, javascript],
         code: 'https://github.com/NicolasManjarres11/pokedex',
         live:'https://nicolasmanjarres11.github.io/pokedex/'
-
-    },
-    {image: Project2,
-        tittle: 'Sistema solar',
-        description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera muy simple el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
-        skill: [html, css, javascript],
-        code: 'https://github.com/NicolasManjarres11/solar-system.git',
-        live:'https://nicolasmanjarres11.github.io/solar-system/'
 
     },
     {
