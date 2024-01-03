@@ -18,7 +18,7 @@ import Projectimgproof from '../assets/img/logo2.webp'
 import Project0 from '../assets/img/projects/prueba.webp'
 import Project1 from '../assets/img/projects/pokedex.webp'
 import Project2 from '../assets/img/projects/solarsystem.webp'
-import Project3 from '../assets/img/projects/imashare.png'
+import Project3 from '../assets/img/projects/imashare.webp'
 
 // import skills onn
 
