@@ -34,7 +34,7 @@ const Contacto = () => {
             </span>
           </h1>
           <div className='flex gap-2 mb-4'>
-            <input type='text' disabled className='bg-[#a7a5a5] w-auto py-1.5 px-3 rounded-lg grid place-items-center text-slate-700' value="nicolasmanjarresg@gmail.com" ref={emailRef} />
+            <input type='text' disabled className='bg-[#a7a5a5] w-[250px] py-1.5 px-3 rounded-lg grid place-items-center text-slate-700' value="nicolasmanjarresg@gmail.com" ref={emailRef} />
             <div className='flex '>
               <div className='relative group/tooltip'>
                 <button className='flex bg-indigo-500 hover:bg-opacity-90 text-indigo-100 py-2.5 px-4 rounded-lg' onClick={copyEmail}>
