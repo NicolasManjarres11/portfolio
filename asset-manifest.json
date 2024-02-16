@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/NicolasManjarres11/portfolio/static/css/main.c5b02554.css",
+    "main.js": "/NicolasManjarres11/portfolio/static/js/main.c217d6ee.js",
+    "static/js/787.72424004.chunk.js": "/NicolasManjarres11/portfolio/static/js/787.72424004.chunk.js",
+    "static/media/developer.webp": "/NicolasManjarres11/portfolio/static/media/developer.7e63c42ad7cfd7b52340.webp",
+    "static/media/imashare.webp": "/NicolasManjarres11/portfolio/static/media/imashare.4be0acd7a9b8c38a5bad.webp",
+    "static/media/logo2.webp": "/NicolasManjarres11/portfolio/static/media/logo2.dab4b941c8f0e2618950.webp",
+    "static/media/solarsystem.webp": "/NicolasManjarres11/portfolio/static/media/solarsystem.9b458e15f3cc6f835f60.webp",
+    "static/media/prueba.webp": "/NicolasManjarres11/portfolio/static/media/prueba.ac70aed55c1827dc1a87.webp",
+    "static/media/pokedex.webp": "/NicolasManjarres11/portfolio/static/media/pokedex.9e9851d9acab92901d69.webp",
+    "static/media/mysql.svg": "/NicolasManjarres11/portfolio/static/media/mysql.e00c4ba395d9521b3891d7ff62bea211.svg",
+    "static/media/mysql.webp": "/NicolasManjarres11/portfolio/static/media/mysql.d13e740323941f3bb917.webp",
+    "static/media/java.webp": "/NicolasManjarres11/portfolio/static/media/java.c2b2d6554805559fca12.webp",
+    "static/media/reactjs.webp": "/NicolasManjarres11/portfolio/static/media/reactjs.58ea911886c34aadfb88.webp",
+    "static/media/tailwind.webp": "/NicolasManjarres11/portfolio/static/media/tailwind.3032121eb631f99ceeaa.webp",
+    "static/media/python.webp": "/NicolasManjarres11/portfolio/static/media/python.8e82cbd758397fb1865f.webp",
+    "static/media/node.svg": "/NicolasManjarres11/portfolio/static/media/node.39d9d8f9134a6420509f204ad55372a1.svg",
+    "static/media/mongodb.webp": "/NicolasManjarres11/portfolio/static/media/mongodb.b5164cab2c751d203e11.webp",
+    "static/media/java.svg": "/NicolasManjarres11/portfolio/static/media/java.046d8c88e522ecc19a3cf6a16eb5bb1d.svg",
+    "index.html": "/NicolasManjarres11/portfolio/index.html",
+    "static/media/mongo.svg": "/NicolasManjarres11/portfolio/static/media/mongo.7d93291156feddf2e34dee84a1454cd8.svg",
+    "static/media/react.svg": "/NicolasManjarres11/portfolio/static/media/react.d203f0ec6011edf52b65313b43676506.svg",
+    "static/media/html5.webp": "/NicolasManjarres11/portfolio/static/media/html5.e4e2cc40222451e8bb9d.webp",
+    "static/media/css3.webp": "/NicolasManjarres11/portfolio/static/media/css3.c52527e4e80cc763e0b7.webp",
+    "static/media/python.svg": "/NicolasManjarres11/portfolio/static/media/python.dc643a36ec41adc3dd740112b09691e0.svg",
+    "static/media/nodejs.webp": "/NicolasManjarres11/portfolio/static/media/nodejs.446d23474197e8e06c39.webp",
+    "static/media/git.webp": "/NicolasManjarres11/portfolio/static/media/git.a47ec44efebc974323f9.webp",
+    "static/media/javascript-js.svg": "/NicolasManjarres11/portfolio/static/media/javascript-js.c11f9c3ef6e0502bba3704bf02d33e65.svg",
+    "static/media/js.webp": "/NicolasManjarres11/portfolio/static/media/js.359efa9386bcddbf2dfd.webp",
+    "static/media/git.svg": "/NicolasManjarres11/portfolio/static/media/git.d0f3c9a9d1e3c3a87c78b263c63a478b.svg",
+    "static/media/csss.svg": "/NicolasManjarres11/portfolio/static/media/csss.823cf24a7123e25d07035d7897be91c5.svg",
+    "static/media/html.svg": "/NicolasManjarres11/portfolio/static/media/html.3e98a577691d13e0fcb42d5b9590474f.svg",
+    "static/media/bg.webp": "/NicolasManjarres11/portfolio/static/media/bg.9a6301b600324fa96eee.webp",
+    "main.c5b02554.css.map": "/NicolasManjarres11/portfolio/static/css/main.c5b02554.css.map",
+    "main.c217d6ee.js.map": "/NicolasManjarres11/portfolio/static/js/main.c217d6ee.js.map",
+    "787.72424004.chunk.js.map": "/NicolasManjarres11/portfolio/static/js/787.72424004.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b02554.css",
+    "static/js/main.c217d6ee.js"
+  ]
+}
