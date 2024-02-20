@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Perfil from './components/Perfil';
 import Proyectos from './components/Proyectos';
 import Skills from './components/Skills';
+import React from 'react'
 
 function App() {
 
