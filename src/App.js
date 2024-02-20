@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className='' >
+    <>
       <Navbar/>
       <Home />
       <About/>
@@ -18,7 +18,7 @@ function App() {
       <Skills/>
       <Proyectos/>
       <Contacto/>
-    </div> 
+    </> 
   );
 }
 
