@@ -1,6 +1,5 @@
 {
   "name": "portafolio-dev",
-  "homepage": "https://github.com/NicolasManjarres11/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
