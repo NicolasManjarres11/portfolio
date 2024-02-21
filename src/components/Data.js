@@ -94,6 +94,7 @@ export const projects = [
         description: 'Red social basada en imágenes donde se utilizó Nodejs, Express y Mongodb para construir su lógica, además de utilizar conceptos de frontend tales como Bootstrap, Handlebars, Jquery y otros más. Podemos ver, comentar, agregar, eliminar y darle like a imágenes. (Link no disponible por ahora)',
         skill: [node, mongo, javascript, html],
         code: 'https://github.com/NicolasManjarres11/ImaShare.git',
+        live: 'https://imashare.onrender.com/'
     },
     {
         image: Project2,
