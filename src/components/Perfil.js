@@ -88,7 +88,7 @@ const Perfil = () => {
                                     <h4 className='text-[#a994fd] font-abril'>
                                         {ex.empresa}
                                     </h4>
-                                    <p className='text-white font-ubuntu'>
+                                    <p className='text-white font-ubuntu text-left'>
                                         {ex.description}
                                     </p>
 
