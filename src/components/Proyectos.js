@@ -30,17 +30,17 @@ const Proyectos = () => {
                 <h2 className='text-indigo-500 font-bold font-barlow text-3xl text-center lg:text-left'>
                   {project.tittle}
                 </h2>
-                <p className='text-white font-barlow'>
+                <p className='text-white font-barlow text-left'>
                   {project.description}
                 </p>
-                <div className='flex gap-2 items-center mb-1'>
+                <div className='flex gap-2 items-center justify-center md:justify-start mb-1'>
                   {project.skill.map((skill, skillIndex) => (
                     <div key={skillIndex}>
                       <img src={skill} alt='' />
                     </div>
                   ))}
                 </div>
-                <div className='flex justify-start gap-3'>
+                <div className='flex md:justify-start justify-center gap-3'>
                   <a href={project.code} target='_blank' rel='noreferrer' className='font-ubuntu px-4 py-2 bg-[#6249c7] text-white rounded-lg hover:text-black hover:bg-white transition duration-300 cursor-pointer'>
                     Code
                     <span className='ml-1'>
