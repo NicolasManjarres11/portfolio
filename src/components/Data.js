@@ -92,14 +92,14 @@ export const projects = [
 
     {image: Project3,
         tittle: 'Imashare',
-        description: 'Red social basada en imágenes donde se utilizó Nodejs, Express y Mongodb para construir su lógica, además de utilizar conceptos de frontend tales como Bootstrap, Handlebars, Jquery y otros más. Podemos ver, comentar, agregar, eliminar y darle like a imágenes. (Link no disponible por ahora)',
+        description: 'Red social basada en imágenes donde se utilizó Nodejs, Express y Mongodb para construir su lógica, además de utilizar conceptos de frontend tales como Bootstrap, manejo de plantillas con Handlebars, Jquery y otros más. Podemos ver, comentar, agregar, eliminar y darle like a imágenes.',
         skill: [node, mongo, javascript, html, git],
         code: 'https://github.com/NicolasManjarres11/ImaShare.git',
         live: 'https://imashare.onrender.com/'
     },
     {image: Project4,
         tittle: 'Gestor Empleados',
-        description: 'Aplicación CRUD web realizada con React para frontend, Node.JS y Express para servidor y backend y para la base de datos se utilizó MongoDB, con el objetivo de manejar la metodología MERN. Su función es administrar una base de datos de empleados. Se puede reutilizar para otras funciones que requieran un registro de una tabla',
+        description: 'Aplicación web con CRUD realizada con React para frontend, Node.JS y Express para servidor y backend y para la base de datos se utilizó MongoDB, esto con el fin de manejar la metodología MERN. Su función es administrar una base de datos de empleados. Se puede reutilizar para otras funciones que requieran un registro de una tabla',
         skill: [reactSvg ,node, mongo, javascript, html, git],
         code: 'https://github.com/NicolasManjarres11/GestorEmpleados',
         live: 'https://gestorempleadosapp.onrender.com/'
@@ -107,7 +107,7 @@ export const projects = [
     {
         image: Project2,
         tittle: 'Sistema solar',
-        description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera muy simple el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
+        description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera sencilla el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
         skill: [html, css, javascript, git],
         code: 'https://github.com/NicolasManjarres11/solar-system.git',
         live:'https://nicolasmanjarres11.github.io/solar-system/'
@@ -122,14 +122,14 @@ export const projects = [
         live:'https://nicolasmanjarres11.github.io/pokedex/'
 
     },
-    {
+    /* {
         image: Project0,
         tittle: 'Javascript práctico',
         description: 'Proyecto realizado a base de HTML, CSS y Javascript, utilizando métodos de manipulación de DOm e importación de imágenes',
         skill: [html, css, javascript],
         code: 'https://github.com/NicolasManjarres11/curso-frontend-developer-javascript-practico',
         live:'https://nicolasmanjarres11.github.io/curso-frontend-developer-javascript-practico/'
-    },
+    }, */
     
 ]
 
@@ -189,5 +189,10 @@ export const estudios =[
         titulo: 'ITIL Foundation Certificate in IT Service Management V4',
         instituto: 'PeopleCert',
         fecha: '2022'
+    },
+    {
+        titulo: 'Ingeniería de software',
+        instituto: 'Corporación Universitaria Iberoamericana',
+        fecha: '2024 - en proceso'
     },
 ]

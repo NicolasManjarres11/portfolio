@@ -44,7 +44,7 @@ const Navbar = () => {
     <nav className="navbar fixed top-0 left-0 right-0 z-10 flex flex-wrap justify-between items-center p-1.5 font-ubuntu bg-maincolor text-white ">
       <div className=" logo flex items-center flex-no-shrink text-white mr-6 mx-10">
 
-        <span className="font-semibold text-xl tracking-widest">Manjarres</span>
+        <span className="font-semibold text-xl tracking-widest">Manjarres<span className='text-[#6249c7] font-semibold text-xl'>Dev</span></span>
       </div>
       <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light mr-1" id="boton" onClick={() => setIsMenuOpen(!isMenuOpen)}>
