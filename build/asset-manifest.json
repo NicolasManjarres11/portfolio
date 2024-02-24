@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17cb2676.css",
-    "main.js": "/static/js/main.cda6d30b.js",
+    "main.js": "/static/js/main.de870adc.js",
     "static/js/787.72424004.chunk.js": "/static/js/787.72424004.chunk.js",
     "static/media/developer.webp": "/static/media/developer.7e63c42ad7cfd7b52340.webp",
     "static/media/imashare.webp": "/static/media/imashare.4be0acd7a9b8c38a5bad.webp",
@@ -9,6 +9,7 @@
     "static/media/solarsystem.webp": "/static/media/solarsystem.9b458e15f3cc6f835f60.webp",
     "static/media/prueba.webp": "/static/media/prueba.ac70aed55c1827dc1a87.webp",
     "static/media/pokedex.webp": "/static/media/pokedex.9e9851d9acab92901d69.webp",
+    "static/media/gestoempleados.webp": "/static/media/gestoempleados.de64580771487dc32c24.webp",
     "static/media/mysql.svg": "/static/media/mysql.e00c4ba395d9521b3891d7ff62bea211.svg",
     "static/media/mysql.webp": "/static/media/mysql.d13e740323941f3bb917.webp",
     "static/media/java.webp": "/static/media/java.c2b2d6554805559fca12.webp",
@@ -33,11 +34,11 @@
     "static/media/html.svg": "/static/media/html.3e98a577691d13e0fcb42d5b9590474f.svg",
     "static/media/bg.webp": "/static/media/bg.9a6301b600324fa96eee.webp",
     "main.17cb2676.css.map": "/static/css/main.17cb2676.css.map",
-    "main.cda6d30b.js.map": "/static/js/main.cda6d30b.js.map",
+    "main.de870adc.js.map": "/static/js/main.de870adc.js.map",
     "787.72424004.chunk.js.map": "/static/js/787.72424004.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17cb2676.css",
-    "static/js/main.cda6d30b.js"
+    "static/js/main.de870adc.js"
   ]
 }

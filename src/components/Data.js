@@ -19,6 +19,7 @@ import Project0 from '../assets/img/projects/prueba.webp'
 import Project1 from '../assets/img/projects/pokedex.webp'
 import Project2 from '../assets/img/projects/solarsystem.webp'
 import Project3 from '../assets/img/projects/imashare.webp'
+import Project4 from '../assets/img/projects/gestoempleados.webp'
 
 // import skills onn
 
@@ -92,15 +93,22 @@ export const projects = [
     {image: Project3,
         tittle: 'Imashare',
         description: 'Red social basada en imágenes donde se utilizó Nodejs, Express y Mongodb para construir su lógica, además de utilizar conceptos de frontend tales como Bootstrap, Handlebars, Jquery y otros más. Podemos ver, comentar, agregar, eliminar y darle like a imágenes. (Link no disponible por ahora)',
-        skill: [node, mongo, javascript, html],
+        skill: [node, mongo, javascript, html, git],
         code: 'https://github.com/NicolasManjarres11/ImaShare.git',
         live: 'https://imashare.onrender.com/'
+    },
+    {image: Project4,
+        tittle: 'Gestor Empleados',
+        description: 'Aplicación CRUD web realizada con React para frontend, Node.JS y Express para servidor y backend y para la base de datos se utilizó MongoDB, con el objetivo de manejar la metodología MERN. Su función es administrar una base de datos de empleados. Se puede reutilizar para otras funciones que requieran un registro de una tabla',
+        skill: [reactSvg ,node, mongo, javascript, html, git],
+        code: 'https://github.com/NicolasManjarres11/GestorEmpleados',
+        live: 'https://gestorempleadosapp.onrender.com/'
     },
     {
         image: Project2,
         tittle: 'Sistema solar',
         description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera muy simple el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
-        skill: [html, css, javascript],
+        skill: [html, css, javascript, git],
         code: 'https://github.com/NicolasManjarres11/solar-system.git',
         live:'https://nicolasmanjarres11.github.io/solar-system/'
 
@@ -109,7 +117,7 @@ export const projects = [
         image: Project1,
         tittle: 'Pokedex',
         description: 'Página de pókedex la cual se realizó con HTML, CSS y Javascript, esto con el fin de aprender a consumir una API por medio de fecth y permitir que la página pueda filtrar por categorías; en este caso, por tipo de elemento del pokemon',
-        skill: [html, css, javascript],
+        skill: [html, css, javascript, git],
         code: 'https://github.com/NicolasManjarres11/pokedex',
         live:'https://nicolasmanjarres11.github.io/pokedex/'
 
