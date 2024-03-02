@@ -64,7 +64,7 @@ const Perfil = () => {
             </div>
         </div> */
 
-        <div id="perfil" className="bg-[#1F161B] py-16 px-16 flex flex-col items-center justify-between">
+        <div id="perfil" className="bg-[#1F161B] py-6 px-16 flex flex-col items-center justify-between">
             <div className="flex flex-col justify-center items-center lg:mx-[100px]">
                 <h1 className='flex text-white font-abril font-bold text-5xl ml-10 mb-10' >
                     Perfil<span className='text-[#6249c7] text-5xl px-1'>.</span>
@@ -99,7 +99,7 @@ const Perfil = () => {
                 </div>
 
 
-                <div className='grid'>
+                <div className='grid mt-10 mb-10'>
                     <h2 className='text-white font-bold font-barlow text-3xl justify-start mb-10'>
                         Educación
                     </h2>

@@ -105,21 +105,21 @@ export const projects = [
         live: 'https://gestorempleadosapp.onrender.com/'
     },
     {
-        image: Project2,
-        tittle: 'Sistema solar',
-        description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera sencilla el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
-        skill: [html, css, javascript, git],
-        code: 'https://github.com/NicolasManjarres11/solar-system.git',
-        live:'https://nicolasmanjarres11.github.io/solar-system/'
-
-    },
-    {
         image: Project1,
         tittle: 'Pokedex',
         description: 'Página de pókedex la cual se realizó con HTML, CSS y Javascript, esto con el fin de aprender a consumir una API por medio de fecth y permitir que la página pueda filtrar por categorías; en este caso, por tipo de elemento del pokemon',
         skill: [html, css, javascript, git],
         code: 'https://github.com/NicolasManjarres11/pokedex',
         live:'https://nicolasmanjarres11.github.io/pokedex/'
+
+    },
+    {
+        image: Project2,
+        tittle: 'Sistema solar',
+        description: 'Proyecto realizado a base de HTML, CSS y Javascript, para mostrar de una manera sencilla el sistema solar, utilizando métodos de manipulación de DOM, importación de imágenes, animaciones con CSS y demás',
+        skill: [html, css, javascript, git],
+        code: 'https://github.com/NicolasManjarres11/solar-system.git',
+        live:'https://nicolasmanjarres11.github.io/solar-system/'
 
     },
     /* {
